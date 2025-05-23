@@ -1,0 +1,8 @@
+{
+  "name": "Kanguro AIRGI: Asistente Interactivo para Reporte y Gestión de Incidencias",
+  "description": "Kanguro AIRGI es una plataforma interna minimalista para simplificar el reporte, diagnóstico y seguimiento de problemas técnicos (bugs) mediante un asistente IA que guía a los usuarios para proporcionar información detallada y estructurada.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "prompt": ""
+}

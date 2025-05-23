@@ -1,0 +1,28 @@
+
+{
+  "manifest_version": 3,
+  "name": "Kanguro AIRGI: Asistente Interactivo para Reporte y Gestión de Incidencias",
+  "description": "Kanguro AIRGI es una plataforma interna minimalista para simplificar el reporte, diagnóstico y seguimiento de problemas técnicos (bugs) mediante un asistente IA que guía a los usuarios para proporcionar información detallada y estructurada.",
+  "version": "1.1",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' https://cdn.tailwindcss.com https://esm.sh https://cdnjs.cloudflare.com https://www.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https://kanguro.com https://*.googleusercontent.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://generativelanguage.googleapis.com https://identitytoolkit.googleapis.com https://securetoken.googleapis.com https://firestore.googleapis.com https://esm.sh https://*.firebaseio.com https://*.firebaseapp.com https://*.googleapis.com;"
+  }
+}
